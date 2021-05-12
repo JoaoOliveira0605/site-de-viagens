@@ -1,0 +1,124 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* reset css */
+ * , body,html {
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+*, input, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.content__header {
+    height: 88vh;
+    width: 100%;
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+}
+
+.content__menu {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}       
+
+.logo {
+    font-size:20px;
+    background-color: #231F20;
+    width: 130px;
+    height:70px;
+    color:white;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.menu__list {
+    font-size:19px;
+    text-decoration: none;
+}
+
+.menu__links { 
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin:0 13px;
+    
+}
+
+.header__title  {
+    color:rgb(0, 0, 0);
+    font-size:45px;
+    text-align: center;
+    flex-direction: column;
+    margin:15vh auto;
+    
+}
+
+.description {
+    font-size: 19px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.saiba_mais {
+    padding:10px 15px;
+    border-radius: 7px;
+    border:0px;
+    background: #ffc74f;
+    font-size:14px;
+}
+
+
+/* media query */
+ 
+@media (min-width: 320px) and (max-width:416px) {
+
+    .logo {
+        font-size:13px;
+        background-color: #231F20;
+        width: auto;
+        height:auto;
+        color:white;
+        padding:5px 5px;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    .menu__list {
+        font-size:17px;
+        text-decoration: none;
+    }
+
+    .menu__links { 
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+        margin:0 4px;
+        
+    }
+
+    .header__title  {
+        color:rgb(0, 0, 0);
+        font-size:35px;
+        text-align: center;
+        flex-direction: column;
+        margin:15vh auto;
+        
+    }
+
+    .description {
+        font-size: 16px;
+        color:rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+
+
+}
+
