@@ -16,7 +16,7 @@
 
 /* header */
 .content__header {
-    height: 88vh;
+    height: 80vh;
     width: 100%;
     background: no-repeat center/cover url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
 }
@@ -74,6 +74,106 @@
     font-size:14px;
 }
 
+
+/* pacotes */
+
+.Pack{
+    display: flex;
+    justify-content:center  ;
+    margin: 0px auto 15px;
+    font-size:35px
+}
+
+.pacotes { 
+    height:450px;
+    display:flex;
+    
+
+}
+
+
+.cards__content{
+ margin:0px auto;
+ display:flex;
+}
+
+.cards__content h1 {
+    font-size:18px;
+    margin:0 90px;
+    margin-top: 0px;
+}
+
+/* Canada */
+.card__photo {
+    width: 250px;
+    border-radius:18px 0px 0px 20px ;
+    height:300px;
+}
+
+.card__canada {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#00000028;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+.info { 
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
+}
+
+.card__info {
+    position:absolute;
+    background:rgb(248, 190, 0);
+    top:8px;
+    right: 0;
+    padding:5px 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+/* bahamas */
+
+.card__bahamas {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#00000028;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+
+/* orlando */
+
+.card__orlando {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#00000028;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+/* miami */
+
+.card__miami {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#00000028;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+ 
 
 /* media query */
  
