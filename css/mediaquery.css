@@ -1,0 +1,161 @@
+@media (min-width: 280px) and (max-width:1024px) {
+
+    .logo {
+        font-size:13px;
+        background-color: #231F20;
+        width: auto;
+        height:auto;
+        color:white;
+        padding:5px 5px;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    .menu__list {
+        font-size:17px;
+        text-decoration: none;
+    }
+
+    .menu__links { 
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+        margin:0 4px;
+        
+    }
+
+    .header__title  {
+        color:rgb(0, 0, 0);
+        font-size:35px;
+        text-align: center;
+        flex-direction: column;
+        margin:15vh auto;
+        
+    }
+
+    .description {
+        font-size: 16px;
+        color:rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    /* pacotes */
+
+    .Pack{
+        display: flex;
+        justify-content:center  ;
+        margin:auto ;
+        font-size:28px;
+        background:#b3c7d4;
+        height: 26px;
+        padding-top:0px ;
+        color:rgba(0, 0, 0, 0.678);
+    }
+    
+    .pacotes { 
+        height:auto;
+        display:flex;
+        background:#b3c7d4;
+        margin-top: 0;
+    }
+    
+    
+    .cards__content{
+        margin:10px auto;
+        display:flex;
+        flex-direction: column;
+    
+    }
+    
+    .cards__content h1 {
+        font-size:18px;
+        margin:0 90px;
+        margin-top: 0px;
+    }
+    
+    /* Canada */
+    .card__photo {
+        width: 250px;
+        border-radius:18px 0px 0px 20px ;
+        height:300px;
+    }
+    
+    .card__canada {
+        width: 250px;
+        height:430px;
+        border-radius:20px 0px 19px 0px;
+        background:#ffffff75;
+        border-bottom: 0.9px solid #231f2036;
+        position:relative;
+        margin:40px auto;
+        margin-bottom: 5px;
+        
+    
+    
+    }
+    
+    .info  { 
+        margin-left: 5px;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        
+    
+    }
+    
+    .info svg {
+        height: 20px;
+    }
+    
+    .card__info {
+        position:absolute;
+        background:rgb(248, 190, 0);
+        top:8px;
+        right: 0;
+        padding:5px 10px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    
+    /* bahamas */
+    
+    .card__bahamas {
+        width: 250px;
+        height:430px;
+        border-radius:20px 0px 19px 0px;
+        background:#ffffff75;
+        border-bottom: 0.9px solid #231f2036;
+        position:relative;
+        margin:40px auto;
+        margin-bottom: 5px;
+    }
+    
+    
+    /* orlando */
+    
+    .card__orlando {
+        width: 250px;
+        height:430px;
+        border-radius:20px 0px 19px 0px;
+        background:#ffffff75;
+        border-bottom: 0.9px solid #231f2036;
+        position:relative;
+        margin:40px auto;
+        margin-bottom: 5px;
+    }
+    
+    /* miami */
+    
+    .card__miami {
+        width: 250px;
+        height:430px;
+        border-radius:20px 0px 19px 0px;
+        background:#ffffff75;
+        border-bottom: 0.9px solid #231f2036;
+        position:relative;
+        margin:40px auto;
+        
+    }
+    
+
+}
+

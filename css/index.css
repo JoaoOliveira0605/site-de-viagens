@@ -17,7 +17,7 @@
 /* header */
 .content__header {
     height: 80vh;
-    width: 100%;
+    width: 100;
     background: no-repeat center/cover url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
 }
 
@@ -61,7 +61,7 @@
 }
 
 .description {
-    font-size: 19px;
+    font-size: 24px;
     color:rgb(0, 0, 0);
     text-align: center;
 }
@@ -71,7 +71,15 @@
     border-radius: 7px;
     border:0px;
     background: #ffc74f;
-    font-size:14px;
+    font-size:17px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.saiba_mais:hover {
+    opacity: 1;
+    font-size:19px;
+    padding:12px 16px;
 }
 
 
@@ -80,27 +88,34 @@
 .Pack{
     display: flex;
     justify-content:center  ;
-    margin: 0px auto 15px;
-    font-size:35px
+    margin:auto ;
+    font-size:35px;
+    background:#b9b9b9;
+    height: 90px;
+    padding-top:15px ;
+    color:rgba(0, 0, 0, 0.678);
 }
 
 .pacotes { 
-    height:450px;
+    height:60vh;
     display:flex;
+    background:#b9b9b9;
+    padding-top:50px
     
 
 }
 
 
 .cards__content{
- margin:0px auto;
- display:flex;
+    margin:0px auto;
+    display:flex;
 }
 
 .cards__content h1 {
     font-size:18px;
     margin:0 90px;
     margin-top: 0px;
+
 }
 
 /* Canada */
@@ -114,18 +129,23 @@
     width: 250px;
     height:430px;
     border-radius:20px 0px 19px 0px;
-    background:#00000028;
+    background:#ffffff75;
     border-bottom: 0.9px solid #231f2036;
     position:relative;
     margin:0 50px;
 }
 
-.info { 
+.info  { 
     margin-left: 5px;
     display: flex;
     list-style: none;
     flex-direction: column;
+    
 
+}
+
+.info svg {
+    height: 20px;
 }
 
 .card__info {
@@ -143,7 +163,7 @@
     width: 250px;
     height:430px;
     border-radius:20px 0px 19px 0px;
-    background:#00000028;
+    background:#ffffff75;
     border-bottom: 0.9px solid #231f2036;
     position:relative;
     margin:0 50px;
@@ -156,7 +176,7 @@
     width: 250px;
     height:430px;
     border-radius:20px 0px 19px 0px;
-    background:#00000028;
+    background:#ffffff75;
     border-bottom: 0.9px solid #231f2036;
     position:relative;
     margin:0 50px;
@@ -168,57 +188,35 @@
     width: 250px;
     height:430px;
     border-radius:20px 0px 19px 0px;
-    background:#00000028;
+    background:#ffffff75;
     border-bottom: 0.9px solid #231f2036;
     position:relative;
     margin:0 50px;
 }
- 
-
-/* media query */
- 
-@media (min-width: 320px) and (max-width:416px) {
-
-    .logo {
-        font-size:13px;
-        background-color: #231F20;
-        width: auto;
-        height:auto;
-        color:white;
-        padding:5px 5px;
-        text-align: center;
-        text-transform: uppercase;
-        
-    }
-
-    .menu__list {
-        font-size:17px;
-        text-decoration: none;
-    }
-
-    .menu__links { 
-        text-decoration: none;
-        color:rgb(0, 0, 0);
-        margin:0 4px;
-        
-    }
-
-    .header__title  {
-        color:rgb(0, 0, 0);
-        font-size:35px;
-        text-align: center;
-        flex-direction: column;
-        margin:15vh auto;
-        
-    }
-
-    .description {
-        font-size: 16px;
-        color:rgb(0, 0, 0);
-        text-align: center;
-    }
-    
 
 
+
+/* SERVIÇOS */
+
+.service__content{
+    height: 50vh;
+    background: #00000000;
+}
+
+.service__content h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tour__content {  
+    margin:50px auto;
+    font-size:20px; 
+    text-align: center;
+}
+
+.tour__content svg{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 30px;
 }
 
