@@ -1,161 +1,731 @@
-@media (min-width: 280px) and (max-width:1024px) {
+/* Mobile  */
 
-    .logo {
-        font-size:13px;
-        background-color: #231F20;
-        width: auto;
-        height:auto;
-        color:white;
-        padding:5px 5px;
-        text-align: center;
-        text-transform: uppercase;
-        
-    }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 280px) 
+and (max-device-width : 540px) {
+/* Styles */
 
-    .menu__list {
-        font-size:17px;
-        text-decoration: none;
-    }
+/* header */
+.logo {
+    font-size:13px;
+    background-color: #231F20;
+    width: auto;
+    height:auto;
+    color:white;
+    padding:5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
 
-    .menu__links { 
-        text-decoration: none;
-        color:rgb(0, 0, 0);
-        margin:0 4px;
-        
-    }
+.menu__list {
+    font-size:13px;
+    text-decoration: none;
+}
 
-    .header__title  {
-        color:rgb(0, 0, 0);
-        font-size:35px;
-        text-align: center;
-        flex-direction: column;
-        margin:15vh auto;
-        
-    }
+.menu__links { 
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin:0 0px;
+    
+}
 
-    .description {
-        font-size: 16px;
-        color:rgb(0, 0, 0);
-        text-align: center;
-    }
+.header__title  {
+    color:rgb(0, 0, 0);
+    font-size:35px;
+    text-align: center;
+    flex-direction: column;
+    margin:15vh auto;
     
-    /* pacotes */
+}
 
-    .Pack{
-        display: flex;
-        justify-content:center  ;
-        margin:auto ;
-        font-size:28px;
-        background:#b3c7d4;
-        height: 26px;
-        padding-top:0px ;
-        color:rgba(0, 0, 0, 0.678);
-    }
-    
-    .pacotes { 
-        height:auto;
-        display:flex;
-        background:#b3c7d4;
-        margin-top: 0;
-    }
-    
-    
-    .cards__content{
-        margin:10px auto;
-        display:flex;
-        flex-direction: column;
-    
-    }
-    
-    .cards__content h1 {
-        font-size:18px;
-        margin:0 90px;
-        margin-top: 0px;
-    }
-    
-    /* Canada */
-    .card__photo {
-        width: 250px;
-        border-radius:18px 0px 0px 20px ;
-        height:300px;
-    }
-    
-    .card__canada {
-        width: 250px;
-        height:430px;
-        border-radius:20px 0px 19px 0px;
-        background:#ffffff75;
-        border-bottom: 0.9px solid #231f2036;
-        position:relative;
-        margin:40px auto;
-        margin-bottom: 5px;
-        
+.description {
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.saiba_mais {
+    padding:10px 15px;
+    border-radius: 7px;
+    border:0px;
+    background: #ffc74f;
+    font-size:17px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+/* pacotes */
+
+.Pack{
+    display: flex;
+    justify-content:center  ;
+    margin:auto ;
+    font-size:22px;
+    background:#b9b9b9;
+    height: 30px;
+    padding-top:15px ;
+    color:rgba(0, 0, 0, 0.678);
+}
+
+.pacotes { 
+    height:230vh;
+    display:flex;
+    background:#b9b9b9;
+    padding-top:50px;
     
     
-    }
-    
-    .info  { 
-        margin-left: 5px;
-        display: flex;
-        list-style: none;
-        flex-direction: column;
-        
-    
-    }
-    
-    .info svg {
-        height: 20px;
-    }
-    
-    .card__info {
-        position:absolute;
-        background:rgb(248, 190, 0);
-        top:8px;
-        right: 0;
-        padding:5px 10px;
-        border-radius: 15px 0px 0px 15px;
-    }
-    
-    /* bahamas */
-    
-    .card__bahamas {
-        width: 250px;
-        height:430px;
-        border-radius:20px 0px 19px 0px;
-        background:#ffffff75;
-        border-bottom: 0.9px solid #231f2036;
-        position:relative;
-        margin:40px auto;
-        margin-bottom: 5px;
-    }
-    
-    
-    /* orlando */
-    
-    .card__orlando {
-        width: 250px;
-        height:430px;
-        border-radius:20px 0px 19px 0px;
-        background:#ffffff75;
-        border-bottom: 0.9px solid #231f2036;
-        position:relative;
-        margin:40px auto;
-        margin-bottom: 5px;
-    }
-    
-    /* miami */
-    
-    .card__miami {
-        width: 250px;
-        height:430px;
-        border-radius:20px 0px 19px 0px;
-        background:#ffffff75;
-        border-bottom: 0.9px solid #231f2036;
-        position:relative;
-        margin:40px auto;
-        
-    }
+}
+
+
+.cards__content{
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.cards__content h1 {
+    font-size:14px;
+    margin:0 44px;
+    margin-top: 0px;
+
+}
+
+/* Canada */
+.card__photo {
+    width: 150px;
+    border-radius:18px 0px 0px 20px ;
+    height:200px;
+}
+
+.card__canada {
+    width: 150px;
+    height:300px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:15px 50px;
+}
+
+.info  { 
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-size: 9px;
     
 
 }
+
+.info svg {
+    height: 17px;
+}
+
+.card__info {
+    position:absolute;
+    background:rgb(248, 190, 0);
+    top:8px;
+    right: 0;
+    padding:3px 7px;
+    border-radius: 0px 0px 0px 15px;
+    font-size: 13px;
+}
+
+/* bahamas */
+
+.card__bahamas {
+    width: 150px;
+    height:300px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:15px 50px;
+}
+
+
+/* orlando */
+
+.card__orlando {
+    width: 150px;
+    height:300px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:15px 50px;
+}
+
+/* miami */
+
+.card__miami {
+    width: 150px;
+    height:300px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:15px 50px;
+}
+
+
+/* SERVIÇOS */
+
+.service__content{
+    height: 50vh;
+    background: #ffffff;
+}
+
+.service__content h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tour__content {  
+    margin:30px auto;
+    font-size:15px; 
+    text-align: center;
+}
+
+.tour__content svg{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+.about__content {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.about__content img {
+    display: flex ;
+    height: 48px;
+    
+}
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+/* header */
+.logo {
+    font-size:22px;
+    background-color: #231F20;
+    width: auto;
+    height:auto;
+    color:white;
+    padding:5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.menu__list {
+    font-size:22px;
+    text-decoration: none;
+}
+
+.menu__links { 
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin:0 8px;
+    
+}
+
+.header__title  {
+    color:rgb(0, 0, 0);
+    font-size:60px;
+    text-align: center;
+    flex-direction: column;
+    margin:15vh auto;
+    
+}
+
+.description {
+    font-size: 22px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.saiba_mais {
+    padding:10px 15px;
+    border-radius: 7px;
+    border:0px;
+    background: #ffc74f;
+    font-size:27px;
+
+}
+
+/* pacotes */
+
+.Pack{
+    display: flex;
+    justify-content:center  ;
+    margin:auto ;
+    font-size:30px;
+    background:#b9b9b9;
+    height: 25px;
+    padding-top:15px ;
+    color:rgba(0, 0, 0, 0.678);
+}
+
+.pacotes { 
+    height:80vh;
+    display:grid;
+    background:#b9b9b9;
+    padding-top:50px;
+    
+    
+}
+
+
+.cards__content{
+    
+    display: grid;
+    grid-column-gap: 90px ;
+    grid-template-columns: auto auto auto;
+ 
+  
+}
+
+.cards__content h1 {
+    font-size:14px;
+    margin:0 44px;
+    margin-top: 0px;
+
+}
+
+/* Canada */
+.card__photo {
+    width: 180px;
+    border-radius:18px 0px 0px 20px ;
+    height:200px;
+}
+
+.card__canada {
+    width: 180px;
+    height:350px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0px 0px;
+}
+
+.info  { 
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-size: 13px;
+    
+
+}
+
+.info svg {
+    height: 17px;
+}
+
+.card__info {
+    position:absolute;
+    background:rgb(248, 190, 0);
+    top:8px;
+    right: 0;
+    padding:3px 7px;
+    border-radius: 0px 0px 0px 15px;
+    font-size: 13px;
+}
+
+/* bahamas */
+
+.card__bahamas {
+    width: 180px;
+    height:350px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0px 0px;
+}
+
+
+/* orlando */
+
+.card__orlando {
+    width: 180px;
+    height:350px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0px 0px;
+}
+
+/* miami */
+
+.card__miami {
+    width: 180px;
+    height:350px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0px 0px;
+}
+
+/* SERVIÇOS */
+
+.service__content{
+    height: 50vh;
+    background: #ffffff;
+}
+
+.service__content h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tour__content {  
+    margin:30px auto;
+    font-size:15px; 
+    text-align: center;
+}
+
+.tour__content svg{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+.about__content {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.about__content img {
+    display: flex ;
+    height: 48px;
+    
+}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px)
+and (max-width : 1300px)
+ {
+/* Styles */
+
+/* header */
+/* header */
+.content__header {
+    height: 80vh;
+    width: 100;
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+}
+
+.content__menu {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}       
+
+.logo {
+    font-size:20px;
+    background-color: #231F20;
+    width: 130px;
+    height:70px;
+    color:white;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.menu__list {
+    font-size:19px;
+    text-decoration: none;
+}
+
+.menu__links { 
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin:0 13px;
+    
+}
+
+.header__title  {
+    color:rgb(0, 0, 0);
+    font-size:45px;
+    text-align: center;
+    flex-direction: column;
+    margin:15vh auto;
+    
+}
+
+.description {
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.saiba_mais {
+    padding:10px 15px;
+    border-radius: 7px;
+    border:0px;
+    background: #ffc74f;
+    font-size:17px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.saiba_mais:hover {
+    opacity: 1;
+    font-size:19px;
+    padding:12px 16px;
+}
+
+.card__info:hover { 
+    opacity: 1;
+    font-size:19px;
+    padding:5px 10px;
+}
+
+
+/* pacotes */
+
+.Pack{
+    display: flex;
+    justify-content:center  ;
+    margin:auto ;
+    font-size:35px;
+    background:#b9b9b9;
+    height: 90px;
+    padding-top:15px ;
+    color:rgba(0, 0, 0, 0.678);
+}
+
+.pacotes { 
+    height:110vh;
+    display:flex;
+    background:#b9b9b9;
+    padding-top:50px
+    
+
+}
+
+
+.cards__content{
+    
+    display: grid;
+    grid-column-gap: 2px ;
+    grid-template-columns: auto auto auto;
+    background-color: #ffc74f;
+ 
+  
+}
+
+.cards__content h1 {
+    font-size:18px;
+    margin:0 90px;
+    margin-top: 0px;
+
+}
+
+/* Canada */
+.card__photo {
+    width: 250px;
+    border-radius:18px 0px 0px 20px ;
+    height:300px;
+}
+
+.card__canada {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+.info  { 
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    
+
+}
+
+.info svg {
+    height: 20px;
+}
+
+.card__info {
+    position:absolute;
+    background:rgb(248, 190, 0);
+    top:8px;
+    right: 0;
+    padding:5px 10px;
+    border-radius: 15px 0px 0px 15px;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+/* bahamas */
+
+.card__bahamas {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+
+/* orlando */
+
+.card__orlando {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+/* miami */
+
+.card__miami {
+    width: 250px;
+    height:430px;
+    border-radius:20px 0px 19px 0px;
+    background:#ffffff75;
+    border-bottom: 0.9px solid #231f2036;
+    position:relative;
+    margin:0 50px;
+}
+
+/* SERVIÇOS */
+
+.service__content{
+    height: 50vh;
+    background: #ffffff;
+}
+
+.service__content h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.tour__content {  
+    margin:50px auto;
+    font-size:20px; 
+    text-align: center;
+}
+
+.tour__content svg{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+.about__content {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.about__content img {
+    display: flex ;
+    height: 48px;
+
+    
+}
+
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
 
